@@ -1,0 +1,27 @@
+{
+  "name": "@apikee/authenticator-common",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apikee/authenticator-common"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Jakub Tomáš",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  }
+}
