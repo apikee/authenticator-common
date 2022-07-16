@@ -2,9 +2,9 @@ import { JwtPayload } from "jsonwebtoken";
 
 export class Store {
   addToken!: (token: string, subject: string, replace?: boolean) => void;
-  findSubjectByToken!: (token: string) => string;
-  deleteToken!: (token: string) => void;
-  deleteAllTokensForSubject!: (subject: string) => void;
+  findSubjectByToken!: (token: string) => string | Promise<string>;
+  deleteToken!: (token: string) => void | Promise<string>;
+  deleteAllTokensForSubject!: (subject: string) => void | Promise<string>;
   clearExpiredTokens!: (
     validateToken: (
       type: "access" | "refresh",
