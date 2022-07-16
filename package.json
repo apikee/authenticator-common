@@ -1,5 +1,6 @@
 {
   "name": "@apikee/authenticator-common",
+  "description": "Common classes for @apikee/authenticator",
   "version": "0.0.1",
   "repository": {
     "type": "git",
