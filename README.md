@@ -1,8 +1,8 @@
 ## @apikee/authenticator-common
 
-**Common classes for @apikee/authenticator. This package can be used when creating custom Store for @apikee/authenticator**
+**Common classes for @apikee/authenticator. This package can be used when creating custom Store for [@apikee/authenticator](@apikee/authenticator)**
 
-Example of custom store:
+Example of custom store and required methods:
 
 ```tsx
 import { Store } from "@apikee/authenticator-common";
